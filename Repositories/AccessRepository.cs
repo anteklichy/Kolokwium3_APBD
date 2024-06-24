@@ -1,6 +1,4 @@
-﻿using Kolokwium.Models;
-using System.Data.SqlClient;
-using Microsoft.Data.SqlClient;
+﻿using Microsoft.Data.SqlClient;
 
 namespace Kolokwium.Repositories
 {

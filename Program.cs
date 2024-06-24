@@ -10,12 +10,9 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddControllers();
 builder.Services.AddScoped<ITaskService, TaskService>();
-builder.Services.AddScoped<IUserService, UserService>();
-builder.Services.AddScoped<IProjectService, ProjectService>();
 builder.Services.AddScoped<IAccessService, AccessService>();
 builder.Services.AddScoped<ITaskRepository, TaskRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
-builder.Services.AddScoped<IProjectRepository, ProjectRepository>();
 builder.Services.AddScoped<IAccessRepository, AccessRepository>();
 
 var app = builder.Build();

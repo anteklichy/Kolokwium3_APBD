@@ -1,5 +1,4 @@
-﻿using Kolokwium.Models;
-using Microsoft.Data.SqlClient;
+﻿using Microsoft.Data.SqlClient;
 using Task = Kolokwium.Models.Task;
 
 namespace Kolokwium.Repositories

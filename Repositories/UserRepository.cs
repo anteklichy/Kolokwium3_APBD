@@ -1,5 +1,4 @@
 ﻿using Kolokwium.Models;
-using System.Data.SqlClient;
 using Kolokwium.Exceptions;
 using Microsoft.Data.SqlClient;
 
